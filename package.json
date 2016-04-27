@@ -1,0 +1,23 @@
+{
+  "name": "mattockclone",
+  "version": "1.0.0",
+  "description": "a copy of a site on the web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric-Humpert-tiy-assignments/MattockClone.git"
+  },
+  "author": "Eric Humpert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eric-Humpert-tiy-assignments/MattockClone/issues"
+  },
+  "homepage": "https://github.com/Eric-Humpert-tiy-assignments/MattockClone#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
