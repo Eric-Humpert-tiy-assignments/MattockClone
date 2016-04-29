@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /***************************************************************
 General styling
 ***************************************************************/
@@ -56,23 +62,30 @@ body {
 }
 
 .page-content {
-	margin: 0 5%;
 	box-shadow:1px 0 5px -4px #333333, -1px 0 5px -4px #333333;
+	margin: 0 5%;
 }
 
-.page-content header ul li{
-	color: #D1D3D4;
-	display: inline;
-	font-family: sans-serif;
+.page-content header {
+	background-color: #666666;
+}
 
-	padding: 2%;
+.page-content header a{
+	color: #D1D3D4;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
 	text-decoration: none;
-	width: 100%;
 }
 
 .page-content header img {
 	width: 35%;
 	margin: 1%;
+}
+
+.page-content header ul li {
+	display: inline;
+	padding: 1.5%;
 }
 
 .page-content footer {
@@ -82,6 +95,13 @@ body {
 	font-size: .85em;
 	padding: 2%;
 	width: 96%;
+}
+
+.selected {
+	color: #F5CD28;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
 }
 
 /***************************************************
@@ -97,6 +117,81 @@ Portfolio styling
 .img-column {
 	width: 30.333333%;
 	padding: 1%;
+}
+
+/***************************************************
+About page styling
+***************************************************/
+
+.about-page {
+	font-family: sans-serif;
+}
+
+.about-page img{
+	width: 100%;
+}
+
+/***************************************************
+Brief Summary section styling
+***************************************************/
+
+.brief-summary {
+	background-color: #F5CD28;
+
+	width:50%;
+	padding: 5%;
+}
+
+.brief-summary h3 {
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+.brief-summary p {
+	color: #000000;
+	font-size: .80em;
+	padding: 2% 0;
+}
+
+.canvas-box {
+	background-color: #3B3C3D;
+		color: #FFFFFF;
+	width: 50%;
+}
+
+/***************************************************
+Social Media section styling
+***************************************************/
+
+.social-network-info {
+	background-color: #FFFCFC;
+	width: 50%;
+}
+
+.social-network-info h3 {
+	color: #444444;
+	font-size: 1.25em;
+	font-weight: 500;
+	padding-left: 5%;
+	padding-top: 5%;
+
+}
+
+.social-network-info p {
+		color: #676767;
+		font-size: .80em;
+		padding: 5%;
+}
+
+/***************************************************
+Company logos section styling
+***************************************************/
+
+.companies {
+	background-color: #939598;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 50%;
 }
 
 /***************************************************
